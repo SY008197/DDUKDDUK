@@ -1,0 +1,23 @@
+{
+  "mode": "built-in image_gen",
+  "use_case": "stylized-concept",
+  "asset": "RiceCakeAtlas.png",
+  "generated_image_source": "C:\\Users\\ohseongjun\\.codex\\generated_images\\01a0fbc7-70d8-7da1-a11b-bb8ec9e93ad4\\exec-54045dda-0ba4-4115-8468-7d094b3c7499.png",
+  "reference_image": "C:\\Users\\ohseongjun\\AppData\\Local\\Temp\\codex-clipboard-10da0fa6-ffc1-4d4c-b0a3-c6c356c627a2.png",
+  "reference_role": "style reference only",
+  "transparent_background": true,
+  "layout": "3 columns x 3 rows; row-major",
+  "subjects": [
+    "garaetteok",
+    "jeolpyeon",
+    "baekseolgi",
+    "injeolmi",
+    "baram-tteok",
+    "mugwort rice cakes",
+    "kkultteok",
+    "bean-coated rice cakes",
+    "premium royal rice cakes"
+  ],
+  "prompt": "Use case: stylized-concept\nAsset type: production-ready transparent sprite atlas for a cozy Korean rice-cake shop game.\nInput images: Image 1 is a style reference only. Match the richly handpainted, appetizing rice cakes and warm polished cozy Korean-shop illustration of the reference. Do not recreate its interface.\nPrimary request: create exactly ONE SQUARE PNG image containing nine separate rice-cake groups on an actually transparent background. This is a precisely uniform 3 by 3 atlas for slicing into nine equal squares.\nComposition/framing: divide the square canvas mentally into 3 equal columns and 3 equal rows with NO visible lines. The center of every cake group is exactly at its cell center: x 16.67%, 50%, 83.33%; y 16.67%, 50%, 83.33%. Each group fits comfortably within the central 70% width and 70% height of its own square cell. At least 15% clear transparent padding on every cell edge. Similar visual scale and consistent 3/4 view from above for all nine groups. All edges, powder crumbs, decorative food details and any subtle local shading stay safely inside that cell. No cake group may cross a cell boundary.\nSubjects, fixed row-major order, left to right:\nTop row 1: a small appetizing group of smooth white cylindrical garaetteok rice cakes, five short cylinders, soft ivory sheen.\nTop row 2: a small group of green and pale pink jeolpyeon rice cakes with beautiful shallow traditional flower stamps on their tops.\nTop row 3: three soft white square baekseolgi rice-cake cubes with a few black sesame seeds on top, airy crumb texture.\nMiddle row 1: a small group of beige injeolmi cubes richly covered in fine golden soybean powder, soft irregular powdery edges.\nMiddle row 2: a small group of pink and green baram-tteok half-moon dumpling shaped rice cakes, smooth plump glossy surfaces and gentle seams.\nMiddle row 3: a small group of dark green mugwort rice cakes, natural deep sage-green dough, slightly rustic texture, clear readable rice-cake shapes.\nBottom row 1: a small group of colorful round honey kkultteok rice cakes in white, pink, and green, round plump pearl-like dumplings with delicate seams.\nBottom row 2: a small group of tan bean-coated rice cakes, coarse toasted bean coating with cream interior visible on one piece.\nBottom row 3: elegant premium royal Korean rice cakes, golden cream and muted amber festive squares with delicate edible floral decoration and tiny seed details.\nStyle/medium: richly painted high quality 2D food illustration, refined handpainted textures, soft shape definition, warm creamy highlights, appetizing real and readable forms, gentle painterly brushwork, consistent upper-left lighting. The visual richness and food rendering should resemble the reference's cake thumbnail art.\nConstraints: truly transparent alpha background; isolated cake groups only; no plates, trays, leaves as backdrops, packaging, plastic wrappers, labels, text, UI, borders, cell dividers, watermarks or marketing graphics. No scenery or solid background. Avoid cast shadows outside the cake group. Exactly nine groups, exactly one per cell, clean transparent gutters. Square canvas.",
+  "tool_output_hint": "Generated images are saved to C:\\Users\\ohseongjun\\.codex\\generated_images\\01a0fbc7-70d8-7da1-a11b-bb8ec9e93ad4 as C:\\Users\\ohseongjun\\.codex\\generated_images\\01a0fbc7-70d8-7da1-a11b-bb8ec9e93ad4\\exec-54045dda-0ba4-4115-8468-7d094b3c7499.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

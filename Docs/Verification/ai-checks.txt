@@ -1,0 +1,79 @@
+PASS scene initializes
+PASS live AI opening waits for settlement for taste 1
+PASS model balance is correct at live AI opening for taste 1
+PASS visible money amount is correct at live AI opening for taste 1
+PASS flow reaches AwaitingRecommendation
+PASS bundled local AI generates real dialogue for taste 1
+PASS model balance is correct at live AI customer arrival for taste 1
+PASS visible money amount is correct at live AI customer arrival for taste 1
+PASS camera supports offscreen UI capture
+PASS screenshot captured: live-ai-taste-1.png
+PASS screenshot contains rendered UI: live-ai-taste-1.png
+PASS live AI recommendation succeeds for taste 1
+PASS live AI feedback remains unsettled for taste 1
+PASS model balance is correct at live AI recommendation feedback for taste 1
+PASS visible money amount is correct at live AI recommendation feedback for taste 1
+PASS flow reaches Result
+PASS live AI settles with its result window for taste 1
+PASS model balance is correct at live AI sales result for taste 1
+PASS visible money amount is correct at live AI sales result for taste 1
+PASS model balance is correct at live AI repeated result refresh for taste 1
+PASS visible money amount is correct at live AI repeated result refresh for taste 1
+PASS flow reaches evening Prompt
+PASS rest requires explicit confirmation
+PASS rest confirmation starts the next arrangement day
+PASS live AI loop resets for another generation
+PASS model balance is correct at live AI result skip and next morning for taste 1
+PASS visible money amount is correct at live AI result skip and next morning for taste 1
+PASS live AI opening waits for settlement for taste 2
+PASS model balance is correct at live AI opening for taste 2
+PASS visible money amount is correct at live AI opening for taste 2
+PASS flow reaches AwaitingRecommendation
+PASS bundled local AI generates real dialogue for taste 2
+PASS model balance is correct at live AI customer arrival for taste 2
+PASS visible money amount is correct at live AI customer arrival for taste 2
+PASS camera supports offscreen UI capture
+PASS screenshot captured: live-ai-taste-2.png
+PASS screenshot contains rendered UI: live-ai-taste-2.png
+PASS live AI recommendation succeeds for taste 2
+PASS live AI feedback remains unsettled for taste 2
+PASS model balance is correct at live AI recommendation feedback for taste 2
+PASS visible money amount is correct at live AI recommendation feedback for taste 2
+PASS flow reaches Result
+PASS live AI settles with its result window for taste 2
+PASS model balance is correct at live AI sales result for taste 2
+PASS visible money amount is correct at live AI sales result for taste 2
+PASS model balance is correct at live AI repeated result refresh for taste 2
+PASS visible money amount is correct at live AI repeated result refresh for taste 2
+PASS flow reaches evening Prompt
+PASS rest requires explicit confirmation
+PASS rest confirmation starts the next arrangement day
+PASS live AI loop resets for another generation
+PASS model balance is correct at live AI result skip and next morning for taste 2
+PASS visible money amount is correct at live AI result skip and next morning for taste 2
+PASS live AI opening waits for settlement for taste 3
+PASS model balance is correct at live AI opening for taste 3
+PASS visible money amount is correct at live AI opening for taste 3
+PASS flow reaches AwaitingRecommendation
+PASS bundled local AI generates real dialogue for taste 3
+PASS model balance is correct at live AI customer arrival for taste 3
+PASS visible money amount is correct at live AI customer arrival for taste 3
+PASS camera supports offscreen UI capture
+PASS screenshot captured: live-ai-taste-3.png
+PASS screenshot contains rendered UI: live-ai-taste-3.png
+PASS live AI recommendation succeeds for taste 3
+PASS live AI feedback remains unsettled for taste 3
+PASS model balance is correct at live AI recommendation feedback for taste 3
+PASS visible money amount is correct at live AI recommendation feedback for taste 3
+PASS flow reaches Result
+PASS live AI settles with its result window for taste 3
+PASS model balance is correct at live AI sales result for taste 3
+PASS visible money amount is correct at live AI sales result for taste 3
+PASS model balance is correct at live AI repeated result refresh for taste 3
+PASS visible money amount is correct at live AI repeated result refresh for taste 3
+PASS flow reaches evening Prompt
+PASS rest requires explicit confirmation
+PASS rest confirmation starts the next arrangement day
+PASS live AI loop resets for another generation
+PASS model balance is correct at live AI result skip and next morning for taste 3
+PASS visible money amount is correct at live AI result skip and next morning for taste 3

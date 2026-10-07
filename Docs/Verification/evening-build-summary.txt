@@ -1,0 +1,15 @@
+2026-10-02
+Unity 6000.3.25f1 (e1dba0a9aba4)
+Build target: StandaloneWindows64, Development
+Build entry point: DdukDduk.Shop.Editor.ShopProjectBuilder.BuildPreview
+Unity exit code: 0
+SHOP_MODEL_VERIFICATION_PASSED: 53 checks
+SHOP_PREVIEW_BUILD_OK
+UI player: -shopNoSave -shopFakeDialogue -shopCaptureDir <output>
+UI exit code: 0
+SHOP_UI_VERIFICATION_OK: 283 checks
+AI player: -shopNoSave -shopRequireAi -shopCaptureDir <output>
+AI exit code: 0
+SHOP_UI_VERIFICATION_OK: 34 checks
+UI screenshots: 1920x1080 and 1280x800
+Save format: 3; prior versions 1 and 2 tested

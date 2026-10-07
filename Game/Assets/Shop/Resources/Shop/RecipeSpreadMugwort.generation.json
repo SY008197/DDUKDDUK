@@ -1,0 +1,17 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "asset": "RecipeSpreadMugwort.png",
+  "transparent_background": false,
+  "source_path": "C:\\Users\\ohseongjun\\.codex\\generated_images\\01a0fba7-de16-75b3-b708-0ada20c9340b\\exec-76da86bc-34ad-47ef-a83e-5ca4530972f3.png",
+  "edit_target": "C:\\Users\\ohseongjun\\Documents\\ChatGPT\\dduck\\DDUKDDUKBuild\\Game\\Assets\\Shop\\Resources\\Shop\\RecipeSpreadMugwort.png",
+  "prompt": "Use case: precise-object-edit\nAsset type: Unity game recipe-book background texture, opaque landscape, same dimensions as input.\nInput image 1 is the edit target.\nPrimary request: Remove ONLY the empty navy blue and gold ornamental research-button plaque at the bottom of the RIGHT book page, approximately pixels x=995..1518, y=778..874 in the 1672x941 image. Fill that exact removed plaque area with seamless aged cream parchment matching its immediate surroundings.\nConstraints: This is a surgical removal. Keep the right page's thin outer decorative border, all five study-info rows and their icons, both cake photos, every left-page ingredient illustration, all left scraps of paper, pressed plants, handwritten marks, tape, lighting, book binding, surrounding table, top navigation strip, and the image composition unchanged. Do NOT move or redesign any other element. Do NOT add any text, new button, icon, ingredients, decoration, or watermark. Preserve the original full image size, framing and color.",
+  "edit_history": [
+    {
+      "edit_target": "C:\\Users\\ohseongjun\\Documents\\ChatGPT\\dduck\\DDUKDDUKBuild\\Game\\Assets\\Shop\\Resources\\Shop\\RecipeSpreadMugwort.png",
+      "source_path": "C:\\Users\\ohseongjun\\.codex\\generated_images\\01a0fba7-de16-75b3-b708-0ada20c9340b\\exec-76da86bc-34ad-47ef-a83e-5ca4530972f3.png",
+      "prompt": "Use case: precise-object-edit\nAsset type: Unity game recipe-book background texture, opaque landscape, same dimensions as input.\nInput image 1 is the edit target.\nPrimary request: Remove ONLY the empty navy blue and gold ornamental research-button plaque at the bottom of the RIGHT book page, approximately pixels x=995..1518, y=778..874 in the 1672x941 image. Fill that exact removed plaque area with seamless aged cream parchment matching its immediate surroundings.\nConstraints: This is a surgical removal. Keep the right page's thin outer decorative border, all five study-info rows and their icons, both cake photos, every left-page ingredient illustration, all left scraps of paper, pressed plants, handwritten marks, tape, lighting, book binding, surrounding table, top navigation strip, and the image composition unchanged. Do NOT move or redesign any other element. Do NOT add any text, new button, icon, ingredients, decoration, or watermark. Preserve the original full image size, framing and color."
+    }
+  ],
+  "date": "2026-10-03"
+}

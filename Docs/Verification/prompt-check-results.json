@@ -1,0 +1,62 @@
+[
+  {
+    "prompt": "single_example",
+    "answer": 1,
+    "text": "산책을 마치고 간식으로 먹으려고 했지만, 쌀맛이 은은한 떡을 추천해 주세요."
+  },
+  {
+    "prompt": "single_example",
+    "answer": 1,
+    "text": "다른 사람에게 선물할 수 있도록, 쌀맛이 은은한 떡을 추천해 드릴게요."
+  },
+  {
+    "prompt": "single_example",
+    "answer": 2,
+    "text": "달달한 간식이 먹고 싶어요. 입안이 달콤해지는 떡이 있을까요?"
+  },
+  {
+    "prompt": "single_example",
+    "answer": 2,
+    "text": "달달한 꿀처럼 입안이 달달해지는 떡이 친구에게 선물할까요?"
+  },
+  {
+    "prompt": "single_example",
+    "answer": 3,
+    "text": "산책을 마친 후 볶은 콩과 함께 먹는 떡이 맥없이 맛있어요. 간식으로 드리겠어요."
+  },
+  {
+    "prompt": "single_example",
+    "answer": 3,
+    "text": "콩가루처럼 구수한 향이 나는 떡이 좋아요. 친구에게 선물해 주실래요?"
+  },
+  {
+    "prompt": "direct_system",
+    "answer": 1,
+    "text": "간단하고 순한 쌀맛을 추천해 드릴게요."
+  },
+  {
+    "prompt": "direct_system",
+    "answer": 1,
+    "text": "그리고 쌀의 맛은 떡을 더욱 즐겁게 하도록 유도해 드릴게요!"
+  },
+  {
+    "prompt": "direct_system",
+    "answer": 2,
+    "text": "\"산책을 마치고 간식으로 맛을 즐겨 드릴게요!\""
+  },
+  {
+    "prompt": "direct_system",
+    "answer": 2,
+    "text": "친구에게 떡을 꿀처럼 달달하게 선물해 드릴게요. 맛이 좋아요!"
+  },
+  {
+    "prompt": "direct_system",
+    "answer": 3,
+    "text": "\"산책 마친 후 볶은 콩에 맛있게 간식을 먹으세요.\""
+  },
+  {
+    "prompt": "direct_system",
+    "answer": 3,
+    "text": "친구에 떡을 추천해 드릴게요. 손님께서는 볶은 콩의 구수한 향을 선물하고 싶으신데요."
+  }
+]

@@ -1,0 +1,24 @@
+2026-10-03
+Unity 6000.3.25f1 (e1dba0a9aba4)
+Build target: StandaloneWindows64, Development
+Build entry point: DdukDduk.Shop.Editor.ShopProjectBuilder.BuildPreview
+Final build log: canvas-renderer-build-verified.log
+Final Unity exit code: 0
+SHOP_SCENE_VERIFICATION_PASSED: 689 checks
+SHOP_MODEL_VERIFICATION_PASSED: 60 checks
+Build Finished, Result: Success.
+Root cause: custom MaskableGraphic classes lacked the CanvasRenderer dependency in the serialized inactive UI
+Renderer explicitly created before corner/page/shadow graphics and persisted in RiceCakeShop.unity
+Both custom graphics require CanvasRenderer and repair legacy missing components before base.OnEnable
+Regression verification reopens the saved scene before ShopApp can rebuild it
+Every serialized Graphic checked with GetComponent<CanvasRenderer>(), including inactive UI
+Exactly two corner graphics and two page/shadow graphics, each with exactly one renderer
+Adding either custom graphic to an inactive GameObject automatically creates exactly one renderer
+Saved corners activated; bounds checked and EventSystem.RaycastAll invoked; original opening scene reloaded without saving test states
+Batch editor did not assign render depths to corners; pointer-hit assertions are covered by the player verification
+Final UI player: -shopNoSave -shopFakeDialogue -shopCaptureDir <output>
+Final UI log: canvas-renderer-player.log
+UI exit code: 0
+SHOP_UI_VERIFICATION_OK: 458 checks
+AI integration: previous 79 checks retained; no AI inference rerun for this UI component fix
+All player verification uses -shopNoSave; user save progression is preserved

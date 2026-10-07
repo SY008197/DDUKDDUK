@@ -1,0 +1,26 @@
+2026-10-07
+Source: user-provided common data API draft PDF, one page, visually reviewed in full
+Unity 6000.3.25f1 (e1dba0a9aba4)
+Final build log: common-api-build-final.log
+Final Unity exit code: 0
+Build Finished, Result: Success.
+SHOP_SCENE_VERIFICATION_PASSED: 689 checks
+SHOP_MODEL_VERIFICATION_PASSED: 60 checks
+SHOP_COMMON_API_VERIFICATION_PASSED: 26 checks
+Final UI log: common-api-player.log
+UI exit code: 0
+SHOP_UI_VERIFICATION_OK: 458 checks
+UI command: -shopNoSave -shopFakeDialogue -shopCaptureDir <output>
+Exact 17 public method signatures and private common state verified
+ShopPhase renamed to GamePhase with original numeric values preserved
+Core consumers use GetDay, GetPhase, GetMoney, GetReputation and AddReputation
+Wallet uses int with checked overflow and atomic settlement validation
+Research completion IDs, marketing usage/application dates, affection, event IDs and route stored in version 5
+Legacy versions 1 through 4 preserve date, wallet, reputation, capacity, unlocks, pending work and settlement
+Int-range-invalid or malformed saved data rejected without mutating model or overwriting the original saved file
+Changed observers validate complete paid pending/morning state without partial writes
+CharacterId and Route type names provided; no character/route members invented
+completedEventIds API remains undefined as specified in the draft
+No new marketing effects, costs or UI introduced
+Player and model verification do not write or reset user saves
+AI inference: prior 79-check record retained; no model/prompt/inference code change or AI rerun in this refactor

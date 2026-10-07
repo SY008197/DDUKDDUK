@@ -1,0 +1,20 @@
+2026-10-03
+Unity 6000.3.25f1 (e1dba0a9aba4)
+Build target: StandaloneWindows64, Development
+Build entry point: DdukDduk.Shop.Editor.ShopProjectBuilder.BuildPreview
+Final Unity exit code: 0
+SHOP_MODEL_VERIFICATION_PASSED: 60 checks
+SHOP_PREVIEW_BUILD_OK
+Final UI player: -shopNoSave -shopFakeDialogue -shopCaptureDir <output>
+UI exit code: 0
+SHOP_UI_VERIFICATION_OK: 329 checks
+AI player: -shopNoSave -shopRequireAi -shopCaptureDir <output>
+AI exit code: 0
+SHOP_UI_VERIFICATION_OK: 79 checks
+UI screenshots: 1920x1080 and 1280x800
+Save format: 4; prior versions 1, 2 and 3 tested
+Customer flow: balance unchanged at opening, arrival and feedback; settled once at sales result
+Pending and already-settled JSON saves tested; prior credited saves are not credited again
+Original supplied mugwort left page preserved; four matching recipe spreads with live research controls
+Final visual polish: research heading centered; disabled caption dimmed without tinting the parchment
+UI screenshots and checks repeated after final visual polish; AI check covers unchanged customer/settlement code

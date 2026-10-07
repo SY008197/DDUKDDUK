@@ -1,0 +1,16 @@
+{
+  "asset": "RecipeResearchButtonSource.png",
+  "mode": "unmodified source copy",
+  "copied_from": "RecipeSpreadMugwort.png before button removal",
+  "sha256": "F8EF12BB5DC905AC5627F39F10EF3007F4737263130AC86829D4525C64C031F2",
+  "use": "Unity crops the navy/gold button independently from the page background",
+  "source_generation": {
+    "tool": "built-in image_gen",
+    "mode": "edit",
+    "asset": "RecipeSpreadMugwort.png",
+    "transparent_background": false,
+    "source_path": "C:\\Users\\ohseongjun\\.codex\\generated_images\\01a0fba7-de16-75b3-b708-0ada20c9340b\\exec-bf4d08a3-34d2-4b68-b93f-ec101c00b1cf.png",
+    "edit_target": "C:\\Users\\OHSEON~1\\AppData\\Local\\Temp\\codex-clipboard-ff5edc5b-dc08-4819-83e0-dfa36d0420c2.png",
+    "prompt": "Use case: precise-object-edit\nAsset type: production Unity recipe-book UI artwork, edited from the supplied full reference.\nInput image role: EDIT TARGET, keep the provided image's exact composition and visual identity.\nPrimary request: prepare this same richly aged Korean mother's scrapbook UI as a clean textless interactive game background. Do not redesign it. Keep the canvas 16:9 and keep the book, central gutter, curled brown leather binding, desk objects, golden sunlight, torn ingredient paper, experiment paper, salmon mother-letter note, red underline, taped tilted food photograph, right recipe illustration frame, five translucent rows, coin/document/chart/calendar/moon pictograms, and ornate navy-and-gold bottom button at their original normalized positions.\nChange only: carefully remove ALL lettering and ALL numerals everywhere, including top navigation and status figures, left calligraphy and prose, ingredient labels, experimental notes, arrows' annotations, letter, right headings/descriptions/row labels/prices and the button caption. Reconstruct their underlying textured parchment or navy fill without covering them with flat new cards. Preserve all pictures, pressed leaves, tiny floral motifs, adhesive tape, pictograms, red underlines, decorative border corner flourishes, paper grain, edge damage, lighting, and navy/gold button outline.\nLayout invariants: original full-image book spans about x100–1740 and y115–1010 on the 1818x1023 reference; preserve these proportions. Left tilted photograph at x615–958 y173–461; ingredients at x282–746 y492–606; small cutaway food drawing near x683–814 y640–756; right food illustration at x1340–1630 y248–473. The live Unity labels will be laid over the now-empty text areas, so those areas must remain clean and textured.\nConstraints: same image and same arrangement, no new white or beige rectangular cards, no generic blank new book, no changed camera angle or zoom, no invented UI panels, no lettering whatsoever, no watermarks. Full opaque image, no transparent background. Food edit: retain all original mugwort rice cakes, the sliced cake with visible soft red-bean filling, its steaming wooden platter, mugwort sprigs, red beans and rice-flour bowl exactly. Do not change any food or ingredients. Only remove text."
+  }
+}

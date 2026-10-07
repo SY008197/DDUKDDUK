@@ -1,0 +1,42 @@
+# Unity project is in Game/. Keep Assets, Packages, ProjectSettings, and .meta files.
+/Game/[Ll]ibrary/
+/Game/[Tt]emp/
+/Game/[Oo]bj/
+/Game/[Ll]ogs/
+/Game/[Uu]ser[Ss]ettings/
+/Game/[Bb]uild/
+/Game/[Bb]uilds/
+/Game/MemoryCaptures/
+/Game/Recordings/
+/Game/.gradle/
+
+# Generated IDE files.
+/Game/.vs/
+/Game/.idea/
+/Game/*.csproj
+/Game/*.sln
+/Game/*.slnx
+/Game/*.suo
+/Game/*.user
+/Game/*.userprefs
+/Game/*.pidb
+/Game/*.booproj
+/Game/*.svd
+/Game/*.pdb
+/Game/*.mdb
+/Game/*.opendb
+/Game/*.VC.db
+
+# Local verification logs and operating-system metadata.
+/*.log
+
+# Large model weights are restored with Tools/FetchLocalAi.ps1.
+/Game/Assets/StreamingAssets/LocalAi/Models/*.gguf
+/Game/Assets/StreamingAssets/LocalAi/Models/*.gguf.meta
+/Game/Assets/StreamingAssets/LocalAi/*.zip
+/Game/Assets/StreamingAssets/LocalAi/*.zip.meta
+/Game/Assets/StreamingAssets/LocalAi/**/*.partial
+/Game/Assets/StreamingAssets/LocalAi/**/*.partial.meta
+.DS_Store
+Thumbs.db
+Desktop.ini

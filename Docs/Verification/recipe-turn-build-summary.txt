@@ -1,0 +1,27 @@
+2026-10-03
+Unity 6000.3.25f1 (e1dba0a9aba4)
+Build target: StandaloneWindows64, Development
+Build entry point: DdukDduk.Shop.Editor.ShopProjectBuilder.BuildPreview
+Final build log: recipe-turn-silhouette-build.log
+Final Unity exit code: 0
+SHOP_MODEL_VERIFICATION_PASSED: 60 checks
+Build Finished, Result: Success.
+Final UI player: -shopNoSave -shopFakeDialogue -shopCaptureDir <output>
+Final UI log: recipe-turn-final-player.log
+UI exit code: 0
+SHOP_UI_VERIFICATION_OK: 458 checks
+UI captures: 1920x1080 and 1280x800
+AI integration: prior 79 checks retained; no AI inference rerun for this UI-only change
+User modification preserved: first recipe prerequisite is "필요 조건 없음"
+Page animation uses two-sided snapshots of the actual rendered page, including its live text and artwork
+Stable cylinder projection, slanted top-edge silhouette, attached fold shadow and readable back-face UVs
+Forward and backward captures at 18, 35, 50, 65 and 82 percent progress
+Native mesh coordinates and triangles checked; exact edge-on midpoint intentionally has an empty sheet mesh
+Two parchment corner buttons replace all four rectangular page controls; hover raises the folded corner
+Actual raycasts checked on both corners; first/last page and repeated input guards checked
+Back button and page number excluded from snapshots to prevent duplicate moving UI
+Early and late navigation cancellation checked; overlay and snapshots released; clean re-entry checked
+Money, reputation, day, capacity, unlocked recipes and pending research preserved while reading and cancelling
+Original mugwort left-page artwork and all existing book/font/button layout retained
+No new raster image generation or image editing in this change
+All verification runs used -shopNoSave; user save progress was not reset

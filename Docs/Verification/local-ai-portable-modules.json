@@ -1,0 +1,18 @@
+[
+  {
+    "ModuleName": "VCRUNTIME140.dll",
+    "FileName": "C:\\Users\\ohseongjun\\Documents\\ChatGPT\\dduck\\DDUKDDUKBuild\\Game\\Assets\\StreamingAssets\\LocalAi\\Runtime\\win-x64\\VCRUNTIME140.dll"
+  },
+  {
+    "ModuleName": "MSVCP140.dll",
+    "FileName": "C:\\Users\\ohseongjun\\Documents\\ChatGPT\\dduck\\DDUKDDUKBuild\\Game\\Assets\\StreamingAssets\\LocalAi\\Runtime\\win-x64\\MSVCP140.dll"
+  },
+  {
+    "ModuleName": "VCRUNTIME140_1.dll",
+    "FileName": "C:\\Users\\ohseongjun\\Documents\\ChatGPT\\dduck\\DDUKDDUKBuild\\Game\\Assets\\StreamingAssets\\LocalAi\\Runtime\\win-x64\\VCRUNTIME140_1.dll"
+  },
+  {
+    "ModuleName": "msvcp_win.dll",
+    "FileName": "C:\\Windows\\System32\\msvcp_win.dll"
+  }
+]

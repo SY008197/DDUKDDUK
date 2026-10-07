@@ -1,0 +1,24 @@
+2026-10-03
+Unity 6000.3.25f1 (e1dba0a9aba4)
+Build target: StandaloneWindows64, Development
+Build entry point: DdukDduk.Shop.Editor.ShopProjectBuilder.BuildPreview
+Final build log: recipe-button-build.log
+Final Unity exit code: 0
+SHOP_MODEL_VERIFICATION_PASSED: 60 checks
+Build Finished, Result: Success.
+Final UI player: -shopNoSave -shopFakeDialogue -shopCaptureDir <output>
+Final UI log: recipe-button-player.log
+UI exit code: 0
+SHOP_UI_VERIFICATION_OK: 332 checks
+UI captures: 1920x1080 and 1280x800
+AI integration: prior 79 checks retained; dialogue and settlement code unchanged by this visual edit
+User modification preserved: first recipe prerequisite is "필요 조건 없음"
+Bundled handwriting: original NanumPenScript-Regular and NanumBrushScript-Regular fonts plus OFL licenses
+Original mugwort left-page bitmap preserved; other pages use consistent live handwriting
+Honey and Bean ingredient herb bunch removed; remaining three ingredients centered
+Honey, Bean and Royal: three experiment lines with matching rules and live conclusion oval
+All four spreads: baked button erased; original navy/gold button separately preserved and drawn by Unity
+Button Y=714, icon X=92, caption X=140; status bottom=690, clear gap=24 in reference coordinates
+Visual review: red predecessor warning, green available research text and green completed research text remain visible
+Visual review: button caption and book icon clear at both captured resolutions; no duplicate background button
+The capture player emitted a graphics ring-buffer capacity warning; completed all checks and produced reviewed nonempty captures

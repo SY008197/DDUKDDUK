@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: 3067e61f36eec9147bfe1a1303971cf4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1713036871154836855
+    second: RiceCakeAtlas_0
+  - first:
+      213: 1088739523179269025
+    second: RiceCakeAtlas_1
+  - first:
+      213: -1836635959123190472
+    second: RiceCakeAtlas_2
+  - first:
+      213: 3921911179752651462
+    second: RiceCakeAtlas_3
+  - first:
+      213: 5507770599462989831
+    second: RiceCakeAtlas_4
+  - first:
+      213: -4538317506396388565
+    second: RiceCakeAtlas_5
+  - first:
+      213: 2310388819465879789
+    second: RiceCakeAtlas_6
+  - first:
+      213: -509703724771674347
+    second: RiceCakeAtlas_7
+  - first:
+      213: -565746042621973652
+    second: RiceCakeAtlas_8
+  - first:
+      213: 3141806750162595610
+    second: RiceCakeAtlas_9
+  - first:
+      213: 3786295040670354872
+    second: RiceCakeAtlas_10
+  - first:
+      213: -7818630196253304643
+    second: RiceCakeAtlas_11
+  - first:
+      213: 7057799829247886625
+    second: RiceCakeAtlas_12
+  - first:
+      213: 4128461923631929644
+    second: RiceCakeAtlas_13
+  - first:
+      213: -5662982105182782101
+    second: RiceCakeAtlas_14
+  - first:
+      213: -3372404434210294483
+    second: RiceCakeAtlas_15
+  - first:
+      213: -6143593014251125611
+    second: RiceCakeAtlas_16
+  - first:
+      213: 5130668621581110044
+    second: RiceCakeAtlas_17
+  - first:
+      213: -2165708552712288695
+    second: RiceCakeAtlas_18
+  - first:
+      213: -8129212243534246448
+    second: RiceCakeAtlas_19
+  - first:
+      213: -2825503925725430792
+    second: RiceCakeAtlas_20
+  - first:
+      213: 5774538551826327986
+    second: RiceCakeAtlas_21
+  - first:
+      213: -8896426849430235113
+    second: RiceCakeAtlas_22
+  - first:
+      213: 2176083038445368711
+    second: RiceCakeAtlas_23
+  - first:
+      213: 3266273966924301999
+    second: RiceCakeAtlas_24
+  - first:
+      213: -222487946664325631
+    second: RiceCakeAtlas_25
+  - first:
+      213: -1444344363956501807
+    second: RiceCakeAtlas_26
+  - first:
+      213: -7733475894775748772
+    second: RiceCakeAtlas_27
+  - first:
+      213: -3352250503116099052
+    second: RiceCakeAtlas_28
+  - first:
+      213: -4848234919458353885
+    second: RiceCakeAtlas_29
+  - first:
+      213: 993061687451712098
+    second: RiceCakeAtlas_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RiceCakeAtlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 809
+        width: 433
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a5bafaa021a38e0800000000000000
+      internalID: -1713036871154836855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiceCakeAtlas_1
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1176
+        width: 13
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab4704f3dafb1f00800000000000000
+      internalID: 1088739523179269025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiceCakeAtlas_2
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 767
+        width: 413
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83dd0ca7355f286e0800000000000000
+      internalID: -1836635959123190472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiceCakeAtlas_3
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 1197
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca3ac5507d6d6630800000000000000
+      internalID: 3921911179752651462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiceCakeAtlas_4
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 818
+        width: 391
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 700f455cd288f6c40800000000000000
+      internalID: 5507770599462989831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiceCakeAtlas_5
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 1195
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b238e41e548a401c0800000000000000
+      internalID: -4538317506396388565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiceCakeAtlas_6
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1050
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de04c4de366201020800000000000000
+      internalID: 2310388819465879789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiceCakeAtlas_7
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 813
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5177a40b92b2de8f0800000000000000
+      internalID: -509703724771674347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiceCakeAtlas_8
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 825
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b2f60c8f01628f0800000000000000
+      internalID: -565746042621973652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiceCakeAtlas_9
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 821
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1fad50e790f99b20800000000000000
+      internalID: 3141806750162595610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiceCakeAtlas_10
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 827
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bdcaf1674f9b8430800000000000000
+      internalID: 3786295040670354872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiceCakeAtlas_11
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 819
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8dd2ae245ae7390800000000000000
+      internalID: -7818630196253304643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiceCakeAtlas_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 437
+        width: 429
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12502260d8752f160800000000000000
+      internalID: 7057799829247886625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiceCakeAtlas_13
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 795
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c299ecafe3e3b4930800000000000000
+      internalID: 4128461923631929644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiceCakeAtlas_14
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 807
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6dbf2377cb0961b0800000000000000
+      internalID: -5662982105182782101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiceCakeAtlas_15
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 799
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2571fbe800d231d0800000000000000
+      internalID: -3372404434210294483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiceCakeAtlas_16
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 803
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5948df424b29dbaa0800000000000000
+      internalID: -6143593014251125611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiceCakeAtlas_17
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 441
+        width: 399
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1bc5998debc33740800000000000000
+      internalID: 5130668621581110044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiceCakeAtlas_18
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 777
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9460f84bb8bd1f1e0800000000000000
+      internalID: -2165708552712288695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiceCakeAtlas_19
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 441
+        width: 395
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd8260f88c3f2f80800000000000000
+      internalID: -8129212243534246448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiceCakeAtlas_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 648
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fbf9a3562bc9c8d0800000000000000
+      internalID: -2825503925725430792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiceCakeAtlas_21
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 513
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b92863d738432050800000000000000
+      internalID: 5774538551826327986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiceCakeAtlas_22
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 453
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718967d6aea898480800000000000000
+      internalID: -8896426849430235113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiceCakeAtlas_23
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 447
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785f94c7efff23e10800000000000000
+      internalID: 2176083038445368711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiceCakeAtlas_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 39
+        width: 403
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa601a11ed2245d20800000000000000
+      internalID: 3266273966924301999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiceCakeAtlas_25
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 421
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10e444c246099ecf0800000000000000
+      internalID: -222487946664325631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiceCakeAtlas_26
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 390
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d209051478a4fbe0800000000000000
+      internalID: -1444344363956501807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiceCakeAtlas_27
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 421
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5768dcb5ac2da490800000000000000
+      internalID: -7733475894775748772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiceCakeAtlas_28
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 39
+        width: 411
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 412f3abade96a71d0800000000000000
+      internalID: -3352250503116099052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiceCakeAtlas_29
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 359
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d4a0e170c97bcb0800000000000000
+      internalID: -4848234919458353885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RiceCakeAtlas_30
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 69
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26afb90e75018cd00800000000000000
+      internalID: 993061687451712098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RiceCakeAtlas_0: -1713036871154836855
+      RiceCakeAtlas_1: 1088739523179269025
+      RiceCakeAtlas_10: 3786295040670354872
+      RiceCakeAtlas_11: -7818630196253304643
+      RiceCakeAtlas_12: 7057799829247886625
+      RiceCakeAtlas_13: 4128461923631929644
+      RiceCakeAtlas_14: -5662982105182782101
+      RiceCakeAtlas_15: -3372404434210294483
+      RiceCakeAtlas_16: -6143593014251125611
+      RiceCakeAtlas_17: 5130668621581110044
+      RiceCakeAtlas_18: -2165708552712288695
+      RiceCakeAtlas_19: -8129212243534246448
+      RiceCakeAtlas_2: -1836635959123190472
+      RiceCakeAtlas_20: -2825503925725430792
+      RiceCakeAtlas_21: 5774538551826327986
+      RiceCakeAtlas_22: -8896426849430235113
+      RiceCakeAtlas_23: 2176083038445368711
+      RiceCakeAtlas_24: 3266273966924301999
+      RiceCakeAtlas_25: -222487946664325631
+      RiceCakeAtlas_26: -1444344363956501807
+      RiceCakeAtlas_27: -7733475894775748772
+      RiceCakeAtlas_28: -3352250503116099052
+      RiceCakeAtlas_29: -4848234919458353885
+      RiceCakeAtlas_3: 3921911179752651462
+      RiceCakeAtlas_30: 993061687451712098
+      RiceCakeAtlas_4: 5507770599462989831
+      RiceCakeAtlas_5: -4538317506396388565
+      RiceCakeAtlas_6: 2310388819465879789
+      RiceCakeAtlas_7: -509703724771674347
+      RiceCakeAtlas_8: -565746042621973652
+      RiceCakeAtlas_9: 3141806750162595610
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

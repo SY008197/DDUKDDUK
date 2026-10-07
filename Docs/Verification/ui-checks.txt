@@ -1,0 +1,458 @@
+PASS scene initializes
+PASS initial shared capacity is 30
+PASS zero-selection placement is enabled
+PASS camera supports offscreen UI capture
+PASS screenshot captured: 01-shop-start.png
+PASS screenshot contains rendered UI: 01-shop-start.png
+PASS quantity button receives pointer raycasts
+PASS one recipe can fill shared capacity 30
+PASS disabled plus cannot exceed capacity
+PASS mixed recipes share a total of 30
+PASS production research lock 쑥떡쑥떡
+PASS production research lock 꿀떡꿀떡
+PASS production research lock 콩떡콩떡
+PASS production research lock 궁떡궁떡
+PASS camera supports offscreen UI capture
+PASS screenshot captured: 02-production-research.png
+PASS screenshot contains rendered UI: 02-production-research.png
+PASS placement immediately opens the shop
+PASS opening keeps the calculated sale unsettled
+PASS model balance is correct at placement completion
+PASS visible money amount is correct at placement completion
+PASS placement completion does not expose the sales result
+PASS sales opening message shown
+PASS daily sales rate is fixed before recommendation
+PASS camera supports offscreen UI capture
+PASS screenshot captured: 03-sales-start.png
+PASS screenshot contains rendered UI: 03-sales-start.png
+PASS flow reaches AwaitingRecommendation
+PASS customer requirement is visible
+PASS offline fallback test uses its prepared line
+PASS arriving customer keeps the calculated sale unsettled
+PASS model balance is correct at customer arrival
+PASS visible money amount is correct at customer arrival
+PASS camera supports offscreen UI capture
+PASS screenshot captured: 04-customer-request.png
+PASS screenshot contains rendered UI: 04-customer-request.png
+PASS taste button selects its numeric answer
+PASS recommendation eligibility 가래떡
+PASS recommendation eligibility 절편
+PASS recommendation eligibility 백설기
+PASS recommendation eligibility 인절미
+PASS recommendation eligibility 바람떡
+PASS recommendation eligibility 쑥떡쑥떡
+PASS recommendation eligibility 꿀떡꿀떡
+PASS recommendation eligibility 콩떡콩떡
+PASS recommendation eligibility 궁떡궁떡
+PASS nonmatching cakes show exact taste restriction
+PASS research lock remains in recommendation screen
+PASS camera supports offscreen UI capture
+PASS screenshot captured: 05-customer-taste-filter.png
+PASS screenshot contains rendered UI: 05-customer-taste-filter.png
+PASS recommendation button receives pointer raycasts
+PASS correct taste rewards exactly one reputation
+PASS success feedback and new reputation grade shown
+PASS successful recommendation feedback has not settled the sale
+PASS model balance is correct at successful recommendation feedback
+PASS visible money amount is correct at successful recommendation feedback
+PASS repeat recommendation cannot reward or charge twice
+PASS camera supports offscreen UI capture
+PASS screenshot captured: 06-customer-satisfied.png
+PASS screenshot contains rendered UI: 06-customer-satisfied.png
+PASS flow reaches Result
+PASS sales result settles the calculated sale
+PASS model balance is correct at sales result
+PASS visible money amount is correct at sales result
+PASS money settles while the sales result window is displayed
+PASS result rebind preserves the completed settlement state
+PASS result rebind keeps its sales result window visible
+PASS model balance is correct at sales result rebind
+PASS visible money amount is correct at sales result rebind
+PASS model balance is correct at repeated result refresh
+PASS visible money amount is correct at repeated result refresh
+PASS result provides an evening transition button
+PASS camera supports offscreen UI capture
+PASS screenshot captured: 07-daily-result.png
+PASS screenshot contains rendered UI: 07-daily-result.png
+PASS flow reaches evening Prompt
+PASS result timer opens the evening without advancing the date
+PASS evening research choice receives pointer raycasts
+PASS camera supports offscreen UI capture
+PASS screenshot captured: 10-evening-prompt.png
+PASS screenshot contains rendered UI: 10-evening-prompt.png
+PASS yes opens the research kind choice
+PASS camera supports offscreen UI capture
+PASS screenshot captured: 11-evening-choice.png
+PASS screenshot contains rendered UI: 11-evening-choice.png
+PASS cake choice opens the recipe book
+PASS recipe book back returns to the kind choice
+PASS stand choice opens the capacity research
+PASS stand back returns to the kind choice
+PASS kind choice back returns to the evening question
+PASS rest opens confirmation before changing the date
+PASS rest confirmation back returns to the evening question
+PASS all back routes preserve funds, research, and date
+PASS flow reaches evening Prompt
+PASS rest requires explicit confirmation
+PASS rest confirmation starts the next arrangement day
+PASS confirmed rest advances exactly once without charging
+PASS confirmed rest advances to a cleared next day
+PASS navigation and rest cannot grant a free capacity upgrade
+PASS model balance is correct at next morning after a settled sale
+PASS visible money amount is correct at next morning after a settled sale
+PASS zero-production day opens without money change
+PASS empty display also waits for its result before settlement
+PASS model balance is correct at empty display opening
+PASS visible money amount is correct at empty display opening
+PASS flow reaches AwaitingRecommendation
+PASS empty display cannot recommend 가래떡
+PASS empty display cannot recommend 절편
+PASS empty display cannot recommend 백설기
+PASS empty display cannot recommend 인절미
+PASS empty display cannot recommend 바람떡
+PASS empty display cannot recommend 쑥떡쑥떡
+PASS empty display cannot recommend 꿀떡꿀떡
+PASS empty display cannot recommend 콩떡콩떡
+PASS empty display cannot recommend 궁떡궁떡
+PASS zero-quantity cake shows its stock restriction
+PASS model also rejects zero-quantity recommendations
+PASS empty day provides an explicit no-recommendation exit
+PASS camera supports offscreen UI capture
+PASS screenshot captured: 08-empty-display.png
+PASS screenshot contains rendered UI: 08-empty-display.png
+PASS declining an empty display leaves reputation unchanged
+PASS failure feedback exact message shown
+PASS empty display failure feedback remains unsettled
+PASS model balance is correct at empty display feedback
+PASS visible money amount is correct at empty display feedback
+PASS camera supports offscreen UI capture
+PASS screenshot captured: 08-customer-unsatisfied.png
+PASS screenshot contains rendered UI: 08-customer-unsatisfied.png
+PASS flow reaches Result
+PASS empty display settles at its result window
+PASS model balance is correct at empty display result
+PASS visible money amount is correct at empty display result
+PASS flow reaches evening Prompt
+PASS rest requires explicit confirmation
+PASS rest confirmation starts the next arrangement day
+PASS result skip still requires an evening rest confirmation
+PASS model balance is correct at empty display result skip and next morning
+PASS visible money amount is correct at empty display result skip and next morning
+PASS single unsold cake provides a negative profit settlement case
+PASS model balance is correct at wrong taste day opening
+PASS visible money amount is correct at wrong taste day opening
+PASS flow reaches AwaitingRecommendation
+PASS wrong taste with positive stock leaves reputation unchanged
+PASS wrong taste failure feedback remains unsettled
+PASS model balance is correct at wrong taste recommendation feedback
+PASS visible money amount is correct at wrong taste recommendation feedback
+PASS flow reaches Result
+PASS wrong taste day settles at its result window
+PASS model balance is correct at wrong taste sales result
+PASS visible money amount is correct at wrong taste sales result
+PASS model balance is correct at wrong taste repeated result refresh
+PASS visible money amount is correct at wrong taste repeated result refresh
+PASS model balance is correct at wrong taste result skip
+PASS visible money amount is correct at wrong taste result skip
+PASS flow reaches evening Prompt
+PASS verification money preset restores a valid snapshot
+PASS recipe navigation reaches page 0
+PASS insufficient funds disable the first recipe research
+PASS model rejects an unaffordable recipe without charging
+PASS verification money preset restores a valid snapshot
+PASS camera supports offscreen UI capture
+PASS screenshot captured: 12-recipe-mugwort.png
+PASS screenshot contains rendered UI: 12-recipe-mugwort.png
+PASS the book has exactly two paper-corner navigation controls
+PASS legacy duplicate page controls are absent
+PASS first page enables only its next paper corner
+PASS the disabled first-page corner cannot turn beyond the book
+PASS book page control receives pointer raycasts
+PASS next recipe plays a page turn animation
+PASS recipe turn capture uses its requested progress forward 0.18
+PASS all book actions remain guarded during the turn forward 0.18
+PASS rapid corner and research clicks cannot interrupt the current turn forward 0.18
+PASS camera supports offscreen UI capture
+PASS screenshot captured: 13a-recipe-forward-early.png
+PASS screenshot contains rendered UI: 13a-recipe-forward-early.png
+PASS both sides of the turning sheet use rendered page snapshots forward 0.18
+PASS the turning sheet samples two distinct pages inside valid texture bounds forward 0.18
+PASS the turn contains no floating placeholder writing forward 0.18
+PASS page curl renderer provides its current mesh forward 0.18
+PASS page curl stays on screen and leaves a clean edge-on seam forward 0.18
+PASS recipe turn capture uses its requested progress forward 0.35
+PASS all book actions remain guarded during the turn forward 0.35
+PASS camera supports offscreen UI capture
+PASS screenshot captured: 13a2-recipe-forward-rising.png
+PASS screenshot contains rendered UI: 13a2-recipe-forward-rising.png
+PASS both sides of the turning sheet use rendered page snapshots forward 0.35
+PASS the turning sheet samples two distinct pages inside valid texture bounds forward 0.35
+PASS the turn contains no floating placeholder writing forward 0.35
+PASS page curl renderer provides its current mesh forward 0.35
+PASS page curl stays on screen and leaves a clean edge-on seam forward 0.35
+PASS recipe turn capture uses its requested progress forward 0.50
+PASS all book actions remain guarded during the turn forward 0.50
+PASS camera supports offscreen UI capture
+PASS screenshot captured: 13-recipe-page-turn.png
+PASS screenshot contains rendered UI: 13-recipe-page-turn.png
+PASS both sides of the turning sheet use rendered page snapshots forward 0.50
+PASS the turning sheet samples two distinct pages inside valid texture bounds forward 0.50
+PASS the turn contains no floating placeholder writing forward 0.50
+PASS page curl renderer provides its current mesh forward 0.50
+PASS page curl stays on screen and leaves a clean edge-on seam forward 0.50
+PASS recipe turn capture uses its requested progress forward 0.65
+PASS all book actions remain guarded during the turn forward 0.65
+PASS camera supports offscreen UI capture
+PASS screenshot captured: 13b1-recipe-forward-settling.png
+PASS screenshot contains rendered UI: 13b1-recipe-forward-settling.png
+PASS both sides of the turning sheet use rendered page snapshots forward 0.65
+PASS the turning sheet samples two distinct pages inside valid texture bounds forward 0.65
+PASS the turn contains no floating placeholder writing forward 0.65
+PASS page curl renderer provides its current mesh forward 0.65
+PASS page curl stays on screen and leaves a clean edge-on seam forward 0.65
+PASS recipe turn capture uses its requested progress forward 0.82
+PASS all book actions remain guarded during the turn forward 0.82
+PASS camera supports offscreen UI capture
+PASS screenshot captured: 13b-recipe-forward-late.png
+PASS screenshot contains rendered UI: 13b-recipe-forward-late.png
+PASS both sides of the turning sheet use rendered page snapshots forward 0.82
+PASS the turning sheet samples two distinct pages inside valid texture bounds forward 0.82
+PASS the turn contains no floating placeholder writing forward 0.82
+PASS page curl renderer provides its current mesh forward 0.82
+PASS page curl stays on screen and leaves a clean edge-on seam forward 0.82
+PASS the finished page turn commits one page and removes its overlay 1
+PASS reading a recipe in either direction preserves all progression state 1
+PASS finishing the turn restores the correct corner boundaries 1
+PASS turned page displays the honey recipe
+PASS later recipes are readable but cannot skip the predecessor
+PASS model rejects out of order honey research without charging
+PASS camera supports offscreen UI capture
+PASS screenshot captured: 14-recipe-honey-locked.png
+PASS screenshot contains rendered UI: 14-recipe-honey-locked.png
+PASS previous paper corner receives pointer raycasts
+PASS previous recipe plays a page turn animation
+PASS recipe turn capture uses its requested progress backward 0.18
+PASS all book actions remain guarded during the turn backward 0.18
+PASS rapid corner and research clicks cannot interrupt the current turn backward 0.18
+PASS camera supports offscreen UI capture
+PASS screenshot captured: 13c-recipe-backward-early.png
+PASS screenshot contains rendered UI: 13c-recipe-backward-early.png
+PASS both sides of the turning sheet use rendered page snapshots backward 0.18
+PASS the turning sheet samples two distinct pages inside valid texture bounds backward 0.18
+PASS the turn contains no floating placeholder writing backward 0.18
+PASS page curl renderer provides its current mesh backward 0.18
+PASS page curl stays on screen and leaves a clean edge-on seam backward 0.18
+PASS recipe turn capture uses its requested progress backward 0.35
+PASS all book actions remain guarded during the turn backward 0.35
+PASS camera supports offscreen UI capture
+PASS screenshot captured: 13c2-recipe-backward-rising.png
+PASS screenshot contains rendered UI: 13c2-recipe-backward-rising.png
+PASS both sides of the turning sheet use rendered page snapshots backward 0.35
+PASS the turning sheet samples two distinct pages inside valid texture bounds backward 0.35
+PASS the turn contains no floating placeholder writing backward 0.35
+PASS page curl renderer provides its current mesh backward 0.35
+PASS page curl stays on screen and leaves a clean edge-on seam backward 0.35
+PASS recipe turn capture uses its requested progress backward 0.50
+PASS all book actions remain guarded during the turn backward 0.50
+PASS camera supports offscreen UI capture
+PASS screenshot captured: 13d-recipe-backward-middle.png
+PASS screenshot contains rendered UI: 13d-recipe-backward-middle.png
+PASS both sides of the turning sheet use rendered page snapshots backward 0.50
+PASS the turning sheet samples two distinct pages inside valid texture bounds backward 0.50
+PASS the turn contains no floating placeholder writing backward 0.50
+PASS page curl renderer provides its current mesh backward 0.50
+PASS page curl stays on screen and leaves a clean edge-on seam backward 0.50
+PASS recipe turn capture uses its requested progress backward 0.65
+PASS all book actions remain guarded during the turn backward 0.65
+PASS camera supports offscreen UI capture
+PASS screenshot captured: 13e1-recipe-backward-settling.png
+PASS screenshot contains rendered UI: 13e1-recipe-backward-settling.png
+PASS both sides of the turning sheet use rendered page snapshots backward 0.65
+PASS the turning sheet samples two distinct pages inside valid texture bounds backward 0.65
+PASS the turn contains no floating placeholder writing backward 0.65
+PASS page curl renderer provides its current mesh backward 0.65
+PASS page curl stays on screen and leaves a clean edge-on seam backward 0.65
+PASS recipe turn capture uses its requested progress backward 0.82
+PASS all book actions remain guarded during the turn backward 0.82
+PASS camera supports offscreen UI capture
+PASS screenshot captured: 13e-recipe-backward-late.png
+PASS screenshot contains rendered UI: 13e-recipe-backward-late.png
+PASS both sides of the turning sheet use rendered page snapshots backward 0.82
+PASS the turning sheet samples two distinct pages inside valid texture bounds backward 0.82
+PASS the turn contains no floating placeholder writing backward 0.82
+PASS page curl renderer provides its current mesh backward 0.82
+PASS page curl stays on screen and leaves a clean edge-on seam backward 0.82
+PASS the finished page turn commits one page and removes its overlay -1
+PASS reading a recipe in either direction preserves all progression state -1
+PASS finishing the turn restores the correct corner boundaries -1
+PASS backward turn restores the first-page boundary
+PASS book back control remains reachable during a page turn 0.18
+PASS leaving the book cancels and hides a partial page turn 0.18
+PASS cancelling a partial page turn preserves all progression state 0.18
+PASS cancelling releases both transient page snapshots 0.18
+PASS reopening the book restores a clean first page after cancellation 0.18
+PASS the page corner receives raycasts after reopening the book 0.18
+PASS book back control remains reachable during a page turn 0.82
+PASS leaving the book cancels and hides a partial page turn 0.82
+PASS cancelling a partial page turn preserves all progression state 0.82
+PASS cancelling releases both transient page snapshots 0.82
+PASS reopening the book restores a clean first page after cancellation 0.82
+PASS the page corner receives raycasts after reopening the book 0.82
+PASS recipe navigation reaches page 3
+PASS last recipe can be previewed while its research is locked
+PASS last page enables only its previous paper corner
+PASS the disabled final-page corner cannot turn beyond the book
+PASS recipe navigation reaches page 0
+PASS opening a cost confirmation does not charge
+PASS camera supports offscreen UI capture
+PASS screenshot captured: 15-recipe-confirmation.png
+PASS screenshot contains rendered UI: 15-recipe-confirmation.png
+PASS cost confirmation back returns to the book without charging
+PASS book preview can return to the evening question
+PASS recipe evening is available 0
+PASS recipe navigation reaches page 0
+PASS next sequential recipe is available 쑥떡쑥떡
+PASS recipe book shows exact cost 쑥떡쑥떡
+PASS recipe remains locked before final confirmation 5
+PASS recipe cost is charged while the current day unlock remains pending 5
+PASS confirmed recipe unlock applies once on the following morning 5
+PASS cake morning displays the exact requested narrative 5
+PASS morning announcement blocks production before acknowledgment 5
+PASS camera supports offscreen UI capture
+PASS screenshot captured: 16-cake-morning.png
+PASS screenshot contains rendered UI: 16-cake-morning.png
+PASS cake morning acknowledgment clears the one time announcement 5
+PASS new recipe is producible after the morning announcement 5
+PASS research test starts from a normal arrangement morning
+PASS recipe evening is available 1
+PASS recipe navigation reaches page 1
+PASS next sequential recipe is available 꿀떡꿀떡
+PASS recipe book shows exact cost 꿀떡꿀떡
+PASS recipe remains locked before final confirmation 6
+PASS recipe cost is charged while the current day unlock remains pending 6
+PASS confirmed recipe unlock applies once on the following morning 6
+PASS cake morning displays the exact requested narrative 6
+PASS morning announcement blocks production before acknowledgment 6
+PASS cake morning acknowledgment clears the one time announcement 6
+PASS new recipe is producible after the morning announcement 6
+PASS research test starts from a normal arrangement morning
+PASS recipe evening is available 2
+PASS recipe navigation reaches page 2
+PASS next sequential recipe is available 콩떡콩떡
+PASS recipe book shows exact cost 콩떡콩떡
+PASS camera supports offscreen UI capture
+PASS screenshot captured: 17-recipe-bean.png
+PASS screenshot contains rendered UI: 17-recipe-bean.png
+PASS recipe remains locked before final confirmation 7
+PASS recipe cost is charged while the current day unlock remains pending 7
+PASS confirmed recipe unlock applies once on the following morning 7
+PASS cake morning displays the exact requested narrative 7
+PASS morning announcement blocks production before acknowledgment 7
+PASS cake morning acknowledgment clears the one time announcement 7
+PASS new recipe is producible after the morning announcement 7
+PASS research test starts from a normal arrangement morning
+PASS recipe evening is available 3
+PASS recipe navigation reaches page 3
+PASS next sequential recipe is available 궁떡궁떡
+PASS recipe book shows exact cost 궁떡궁떡
+PASS camera supports offscreen UI capture
+PASS screenshot captured: 17-recipe-royal.png
+PASS screenshot contains rendered UI: 17-recipe-royal.png
+PASS recipe remains locked before final confirmation 8
+PASS recipe cost is charged while the current day unlock remains pending 8
+PASS confirmed recipe unlock applies once on the following morning 8
+PASS cake morning displays the exact requested narrative 8
+PASS morning announcement blocks production before acknowledgment 8
+PASS cake morning acknowledgment clears the one time announcement 8
+PASS new recipe is producible after the morning announcement 8
+PASS all four recipes unlock in the required order
+PASS research test starts from a normal arrangement morning
+PASS reputation below fifteen blocks first stand research without charging
+PASS stand stage begins at the expected applied capacity 30
+PASS verification money preset restores a valid snapshot
+PASS first stand stage requires its full one hundred fifty thousand won
+PASS verification money preset restores a valid snapshot
+PASS stand research accepts its reputation and completed predecessor 30
+PASS stand displays its exact stage cost 30
+PASS camera supports offscreen UI capture
+PASS screenshot captured: 18-stand-first-stage.png
+PASS screenshot contains rendered UI: 18-stand-first-stage.png
+PASS stand cost confirmation preserves capacity and funds 30
+PASS stand cost confirmation back preserves the unchanged evening 30
+PASS stand payment occurs before the next day capacity increase 30
+PASS stand upgrade applies exactly ten packs the next morning 30
+PASS stand morning displays the exact requested narrative 30
+PASS stand morning announcement blocks production before acknowledgment 30
+PASS camera supports offscreen UI capture
+PASS screenshot captured: 19-stand-morning.png
+PASS screenshot contains rendered UI: 19-stand-morning.png
+PASS new stand capacity is usable after the morning announcement 30
+PASS expanded stand still enforces one shared capacity 30
+PASS research test starts from a normal arrangement morning
+PASS stand stage begins at the expected applied capacity 40
+PASS stand research accepts its reputation and completed predecessor 40
+PASS stand displays its exact stage cost 40
+PASS stand cost confirmation preserves capacity and funds 40
+PASS stand cost confirmation back preserves the unchanged evening 40
+PASS stand payment occurs before the next day capacity increase 40
+PASS stand upgrade applies exactly ten packs the next morning 40
+PASS stand morning displays the exact requested narrative 40
+PASS stand morning announcement blocks production before acknowledgment 40
+PASS new stand capacity is usable after the morning announcement 40
+PASS expanded stand still enforces one shared capacity 40
+PASS research test starts from a normal arrangement morning
+PASS stand stage begins at the expected applied capacity 50
+PASS second stand stage requires reputation thirty five
+PASS verification money preset restores a valid snapshot
+PASS second stand stage requires its full four hundred thousand won
+PASS verification money preset restores a valid snapshot
+PASS camera supports offscreen UI capture
+PASS screenshot captured: 20-stand-second-stage.png
+PASS screenshot contains rendered UI: 20-stand-second-stage.png
+PASS stand research accepts its reputation and completed predecessor 50
+PASS stand displays its exact stage cost 50
+PASS stand cost confirmation preserves capacity and funds 50
+PASS stand cost confirmation back preserves the unchanged evening 50
+PASS stand payment occurs before the next day capacity increase 50
+PASS stand upgrade applies exactly ten packs the next morning 50
+PASS stand morning displays the exact requested narrative 50
+PASS stand morning announcement blocks production before acknowledgment 50
+PASS new stand capacity is usable after the morning announcement 50
+PASS expanded stand still enforces one shared capacity 50
+PASS research test starts from a normal arrangement morning
+PASS stand stage begins at the expected applied capacity 60
+PASS stand research accepts its reputation and completed predecessor 60
+PASS stand displays its exact stage cost 60
+PASS stand cost confirmation preserves capacity and funds 60
+PASS stand cost confirmation back preserves the unchanged evening 60
+PASS stand payment occurs before the next day capacity increase 60
+PASS stand upgrade applies exactly ten packs the next morning 60
+PASS stand morning displays the exact requested narrative 60
+PASS stand morning announcement blocks production before acknowledgment 60
+PASS new stand capacity is usable after the morning announcement 60
+PASS expanded stand still enforces one shared capacity 60
+PASS research test starts from a normal arrangement morning
+PASS maximum seventy packs blocks additional purchases
+PASS camera supports offscreen UI capture
+PASS screenshot captured: 21-stand-max.png
+PASS screenshot contains rendered UI: 21-stand-max.png
+PASS flow reaches evening Prompt
+PASS rest requires explicit confirmation
+PASS rest confirmation starts the next arrangement day
+PASS research test starts from a normal arrangement morning
+PASS recipe navigation reaches page 3
+PASS completed recipe research cannot be purchased again
+PASS camera supports offscreen UI capture
+PASS screenshot captured: 22-research-1280x800.png
+PASS screenshot contains rendered UI: 22-research-1280x800.png
+PASS flow reaches evening Prompt
+PASS rest requires explicit confirmation
+PASS rest confirmation starts the next arrangement day
+PASS flow reaches AwaitingRecommendation
+PASS research unlock enables its matching recommendation
+PASS unclassified royal recipe is never a quiz answer
+PASS zero garaetteok is blocked while a placed mild cake remains recommendable
+PASS zero garaetteok cannot bypass the UI stock restriction
+PASS camera supports offscreen UI capture
+PASS screenshot captured: 09-customer-1280x800.png
+PASS screenshot contains rendered UI: 09-customer-1280x800.png
